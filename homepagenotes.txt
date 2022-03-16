@@ -31,5 +31,12 @@ ART - display some art pieces, click for descriptions
 <summary> for setting names
 <details> for setting descriptions
 
+<template>
+<blockquote>
+<aside>
+<address>
 
+<colgroup>
+<img>
 
+used: <nav> <col> <div> <li> <nav> <p> <h1>

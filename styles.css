@@ -2,6 +2,17 @@ body {
     background-color: rgb(195, 236, 206);
 }
 
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("greenpixelheader1.webp");
+
+  height: 50%;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
 div {
     padding: 20px;
 }
@@ -11,7 +22,7 @@ div.container:nth-child(3) {
 }
 
 h1 {
-    color: rgb(26, 65, 26);
+    color: rgb(225, 243, 225);
     text-align: center;
     font-family: "Raleway";
     font-weight: bolder;
