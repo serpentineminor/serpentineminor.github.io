@@ -11,7 +11,7 @@ Integrate one or more features from Bootstrap into your site.
 
 Have at least one stylesheet file of your own creation, styles.css
     use at least five (5) different CSS selectors (e.g. tag (example), class (.example), or ID (#example))
-    use a total of at least five (5) different CSS properties, such as font-size, or margin.
+        within which use a total of at least five (5) different CSS properties, such as font-size, or margin.
 
 Integrate one or more features of JavaScript into your site.
 
@@ -27,5 +27,9 @@ SOCIALS - Have links to socials
 TTRPGS - symbols for each that when clicked show summaries of their settings
 
 ART - display some art pieces, click for descriptions
+--------------------------------------------------------------------------------------------------------------------
+<summary> for setting names
+<details> for setting descriptions
+
 
 
