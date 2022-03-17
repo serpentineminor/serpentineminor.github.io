@@ -3,12 +3,15 @@
 <html lang="en">
 
     <head>
-        <link href="css/bootstrap.min.css" rel="stylesheet">
-        <script src="js/bootstrap.bundle.min.js"></script>
-        <link rel="shortcut icon" type="image/x-icon" href="snekpixel1.ico" />
-        <link href="styles.css" rel="stylesheet">
-        <meta charset="utf-8">
-        <title>Serpentine Minor</title>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+      <link rel="shortcut icon" type="image/x-icon" href="images/snekpixel1.ico" />
+      <link href="styles.css" rel="stylesheet">
+      <meta charset="utf-8">
+      <title>Serpentine Minor</title>
+
+        
     </head>
 
     <body>
@@ -19,8 +22,8 @@
         </div>
       </div>
 
-        <div class="container">
-          <ul class="nav nav-pills nav-fill">
+      <div class="container">
+          <ul class="nav nav-pills nav-fill rounded">
             <li class="nav-item">
               <a class="nav-link" href="index.html">HOME</a>
             </li>
@@ -34,29 +37,72 @@
               <a class="nav-link" href="ttrpg.html">TTRPG</a>
             </li>
           </ul>
+      </div>
+
+      <div></div>
+      <div></div>
+
+      <div class="container rounded">
+
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+
+          <li class="nav-item">
+            <a class="nav-link active" id="website-tab" data-toggle="tab" href="#website" role="tab" aria-controls="website" aria-selected="true">Website</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="blog-tab" data-toggle="tab" href="#blog" role="tab" aria-controls="blog" aria-selected="false">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="coding-tab" data-toggle="tab" href="#coding" role="tab" aria-controls="coding" aria-selected="false">Coding</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="art-tab" data-toggle="tab" href="#art" role="tab" aria-controls="art" aria-selected="false">Art</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="music-tab" data-toggle="tab" href="#music" role="tab" aria-controls="music" aria-selected="false">Music</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="writing-tab" data-toggle="tab" href="#writing" role="tab" aria-controls="writing" aria-selected="false">Writing</a>
+          </li>
+
+        </ul>
+
+        <div class="tab-content" id="myTabContent">
+
+          <div class="tab-pane fade in active" id="website" role="tabpanel" aria-labelledby="website-tab">
+            <p>You are currently at the only website I have up, but check back for any homepages of other projects that may be linked here!</p>
+          </div>
+
+          <div class="tab-pane fade" id="blog" role="tabpanel" aria-labelledby="blog-tab">
+            <p>Follow my casual interests and thoughts at my <a href="https://serpentineminor.tumblr.com/">Tumblr</a> blog. While it's not quite your typical text blog, you can also keep an eye out on my <a href="https://vm.tiktok.com/ZMetyG6HT/">TikTok</a> for varied content.</p>
+          </div>
+
+          <div class="tab-pane fade" id="coding" role="tabpanel" aria-labelledby="coding-tab">
+            <p>Check out my projects on <a href="https://github.com/serpentineminor">Github</a> (where this site is hosted!) or take a peek at some demos written in <a href="https://scratch.mit.edu/users/SerpentineMinor/">Scratch.</a></p>
+          </div>
+
+          <div class="tab-pane fade" id="art" role="tabpanel" aria-labelledby="art-tab">
+            <p>
+              Check out my art on several different sites: <br>
+              <br>
+              <a href="https://www.instagram.com/serpentine.arts/">Instagram</a> <br> 
+              <a href="https://artsetserpentis.tumblr.com/">SerpentineArts on Tumblr</a> <br>
+              <a href="https://www.deviantart.com/minerserpent">DeviantArt</a> <br>
+              <a href="https://www.artstation.com/foreverhappy02">Artstation</a> <br>
+            </p>
+          </div>
+
+          <div class="tab-pane fade" id="music" role="tabpanel" aria-labelledby="music-tab">
+            <p>Check out my original compositions on my <a href="https://soundcloud.com/serpentinminor">Soundcloud.</a></p>
+          </div>
+
+          <div class="tab-pane fade" id="writing" role="tabpanel" aria-labelledby="writing-tab">
+            <p>I don't have any dedicated sites for writing compilation yet, but you can browse through some short story practice on Reddit <a href="https://www.reddit.com/user/svithjodmountain/?sort=new">here</a>!</p>
+          </div>
+
         </div>
-        
-        <div class="container">
-            <div class="row">
-              <div class="col">
-                <p>1 of 2</p>
-              </div>
-              <div class="col">
-                <p>2 of 2</p>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col">
-                <p>1 of 3</p>
-              </div>
-              <div class="col">
-                <p>2 of 3</p>
-              </div>
-              <div class="col">
-                <p>3 of 3</p>
-              </div>
-            </div>
-        </div>
+
+      </div>
 
     </body>
 

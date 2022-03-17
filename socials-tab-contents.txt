@@ -1,0 +1,63 @@
+<div class="container rounded">
+
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+
+          <li class="nav-item">
+            <a class="nav-link active" id="website-tab" data-toggle="tab" href="#website" role="tab" aria-controls="website" aria-selected="true">Website</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="blog-tab" data-toggle="tab" href="#blog" role="tab" aria-controls="blog" aria-selected="false">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="coding-tab" data-toggle="tab" href="#coding" role="tab" aria-controls="coding" aria-selected="false">Coding</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="art-tab" data-toggle="tab" href="#art" role="tab" aria-controls="art" aria-selected="false">Art</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="music-tab" data-toggle="tab" href="#music" role="tab" aria-controls="music" aria-selected="false">Music</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="writing-tab" data-toggle="tab" href="#writing" role="tab" aria-controls="writing" aria-selected="false">Writing</a>
+          </li>
+
+        </ul>
+
+        <div class="tab-content" id="myTabContent">
+
+          <div class="tab-pane fade" id="website" role="tabpanel" aria-labelledby="website-tab">
+            You are currently at the only website I have up, but check back for any homepages of other projects that may be linked here!
+          </div>
+
+          <div class="tab-pane fade" id="blog" role="tabpanel" aria-labelledby="blog-tab">
+            Follow my casual interests and thoughts at my <link>Tumblr</link> blog.
+          </div>
+
+          <div class="tab-pane fade" id="coding" role="tabpanel" aria-labelledby="coding-tab">
+            Check out my projects on <link>Github</link> (where this site is hosted!) or take a peek at some demos written in <link>Scratch.</link>
+          </div>
+
+          <div class="tab-pane fade" id="art" role="tabpanel" aria-labelledby="art-tab">
+            <ul class="list-unstyled">
+            <li>Check out my art on several different sites: </li>
+              <ul>
+                <li href="">Instagram</li>
+                <li href="">Tumblr Art Blog</li>
+                <li href="">DeviantArt</li>
+                <li href="">Artstation</li>
+              </ul>
+
+            </ul>
+          </div>
+
+          <div class="tab-pane fade" id="music" role="tabpanel" aria-labelledby="music-tab">
+            Check out my original compositions on my <link href="https://soundcloud.com/serpentinminor">Soundcloud.</link>
+          </div>
+
+          <div class="tab-pane fade" id="writing" role="tabpanel" aria-labelledby="writing-tab">
+            I don't have any dedicated sites for writing compilation yet, but you can browse through some short story practice on Reddit <link href="https://www.reddit.com/user/svithjodmountain/?sort=new">here</link>!
+          </div>
+
+        </div>
+
+      </div>
