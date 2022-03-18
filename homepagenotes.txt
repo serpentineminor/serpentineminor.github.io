@@ -37,6 +37,6 @@ ART - display some art pieces, click for descriptions
 <address>
 
 <colgroup>
-<img>
 
-used: <nav> <col> <div> <li> <nav> <p> <h1>
+
+used: <nav> <col> <div> <li> <nav> <p> <h1> <img> <span>
