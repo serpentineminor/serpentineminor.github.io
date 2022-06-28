@@ -1,3 +1,7 @@
+* {
+    border: 0px dotted red;
+}
+
 html, body {
     border: 0px none;
     padding: 0px;
@@ -13,7 +17,7 @@ body {
 
 .main-container
 {
-    padding: 20px;
+    padding: 5px;
     flex: 1;
     display: flex;
     justify-content: center;
@@ -52,11 +56,32 @@ body {
 .header-links > ul {
     display: flex;
     list-style-type: none;
-    justify-content: space-evenly;
+    justify-content: start;
+    gap: 5px;
     margin: 0px;
     padding: 0px;
 }
 
+.header-links > ul > li > a {
+    text-decoration: none;
+    color:rgb(220, 243, 220);
+    font-weight: 800;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 2px;
+    padding: 2px;
+    border: 1px solid rgb(5, 34, 5);
+}
+
+.header-links > ul > li > a:hover {
+    margin: 2px;
+    padding: 2px;
+    text-decoration: underline;
+    color:rgb(0, 48, 0);
+    font-weight: 800;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 .hello-text {
     display: flex;
+    margin: 0px;
 }
