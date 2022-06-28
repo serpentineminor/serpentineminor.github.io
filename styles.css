@@ -86,3 +86,23 @@ body {
     display: flex;
     margin: 0px;
 }
+
+.rockpaperscissors {
+    display: flex;
+    flex-direction: column;
+}
+
+.rpsbutton {
+    background-color: rgb(5, 34, 5);
+    color: rgb(220, 243, 220);
+}
+
+.rpsbutton:hover {
+    background-color: rgb(6, 100, 6);
+    color: rgb(220, 243, 220);
+}
+
+.rpsbutton:active {
+    background-color: rgb(27, 109, 27);
+    color: rgb(220, 243, 220);
+}

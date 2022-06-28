@@ -4,11 +4,71 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" type="image/x-icon" href="images/rainbowcircle-angle1.ico" />
+    <link rel="shortcut icon" type="image/x-icon" href="../images/rainbowcircle-angle1.ico" />
     <link href="../styles.css" rel="stylesheet">
     <title>Rock, Paper, Scissors</title>
+    <script>
+        function rockPaperScissors() {
+            let userMove = prompt("Rock, Paper, or Scissors? Your move: ");
+            userMove = userMove.toLowerCase();
+            userMove = userMove.trim();
+            if (userMove !== "rock" && userMove !== "paper" && userMove !== "scissors") {
+                alert("Invalid");
+            } else {
+                let computerMove = Math.floor(Math.random() * 2) + 1;
+                switch(computerMove) {
+                    case 1:
+                        computerMove = "rock";
+                        if (userMove === "paper") {
+                            alert("Paper vs Rock: You win!");
+                        }
+                        if (userMove === "rock") {
+                            alert("Rock vs Rock: Tie!");
+                        }
+                        if (userMove === "scissors") {
+                            alert("Scissors vs Rock: You lose!");
+                        }
+                        break;
+                    case 2:
+                        computerMove = "paper";
+                        if (userMove === "scissors") {
+                            alert("Scissors vs Paper: You win!");
+                        }
+                        if (userMove === "paper") {
+                            alert("Paper vs Paper: Tie!");
+                        }
+                        if (userMove === "rock") {
+                            alert("Rock vs Paper: You lose!");
+                        }
+                        break;
+                    case 3:
+                        computerMove = "scissors"
+                        if (userMove === "rock") {
+                            alert("Rock vs Scissors: You win!");
+                        }
+                        if (userMove === "scissors") {
+                            alert("Scissors vs Scissors: Tie!");
+                        }
+                        if (userMove === "paper") {
+                            alert("Paper vs Scissors: You lose!");
+                        }
+                        break;
+                    default:
+                        computerMove = "bad";
+                        alert("Error");
+                }
+            }
+        }
+    </script>
 </head>
 <body>
-    
+    <div class="main-container">
+        <div class="rockpaperscissors">
+            <p>hello</p>
+            <p>this is a game of rock paper scissors</p>
+            <p>click below to make your move</p>
+            <button class="button4 rpsbutton" type="button" onclick="rockPaperScissors();">click me</button>
+        </div>
+    </div>
 </body>
 </html>
