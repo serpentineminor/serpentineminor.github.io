@@ -106,3 +106,35 @@ body {
     background-color: rgb(27, 109, 27);
     color: rgb(220, 243, 220);
 }
+
+.board {
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 4px solid rgba(179, 0, 255, 0.534);
+    margin: 10px;
+    padding: 5px;
+    height: auto;
+    width: 810px;
+    flex-flow: wrap row;
+}
+
+.board > div {
+    border: 2px dashed red;
+    display: flex;
+    width: 50px;
+    height: 50px;
+    flex: 0 0 auto;
+    flex-flow: wrap row;
+}
+
+.board > div.red {
+    background-color: red;
+    border: 2px dashed red;
+    display: flex;
+    width: 50px;
+    height: 50px;
+    flex: 0 0 auto;
+    flex-flow: wrap row;
+}

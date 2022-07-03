@@ -7,8 +7,30 @@
     <link rel="shortcut icon" type="image/x-icon" href="../images/rainbowcircle-angle1.ico" />
     <link href="../styles.css" rel="stylesheet">
     <title>Etch-A-Sketch</title>
+    <script>
+    </script>
 </head>
 <body>
-    
+    <div class="board" id="boardDiv">
+        
+    </div>
+    <script>
+        const boardDiv = document.querySelector('#boardDiv');
+        console.log(boardDiv);
+        
+        for (let i = 0; i < 15; i++) {
+            for (let j = 0; j < 15; j++) {
+                const squareDiv = document.createElement("div");
+                squareDiv.setAttribute('onmouseenter',"changeSquareColor(this)");
+                boardDiv.appendChild(squareDiv);
+            }
+        }
+    </script>
+    <script>
+        function changeSquareColor(element) {
+            element.setAttribute('class','red');
+            setTimeout(() => { element.classList.remove("red"); }, 500);
+        }
+    </script>
 </body>
 </html>
