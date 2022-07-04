@@ -4,33 +4,48 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" type="image/x-icon" href="../images/rainbowcircle-angle1.ico" />
-    <link href="/styles.css" rel="stylesheet">
+    <link rel="shortcut icon" type="image/x-icon" href="../images/serpentinefav.ico" />
+    <link href="../styles.css" rel="stylesheet">
     <title>Etch-A-Sketch</title>
     <script>
-    </script>
-</head>
-<body>
-    <div class="board" id="boardDiv">
-        
-    </div>
-    <script>
-        const boardDiv = document.querySelector('#boardDiv');
-        console.log(boardDiv);
-        
-        for (let i = 0; i < 15; i++) {
-            for (let j = 0; j < 15; j++) {
+        function changeSquareColor(element) {
+            element.classList.add("red");
+            setTimeout(() => { element.classList.remove("red"); }, 500);
+        }
+
+        function makeBoard() {
+            let squareSize = document.getElementById('boardSize').value;
+
+            const boardDiv = document.querySelector('#boardDiv');
+            console.log(boardDiv);
+
+            let pixelSize = 500 / squareSize;
+            
+            boardDiv.style.gridTemplateColumns = `repeat(${squareSize}, ${pixelSize}px)`;
+            boardDiv.style.gridTemplateRows = `repeat(${squareSize}, ${pixelSize}px)`;
+
+            for (let i = 0; i < squareSize * squareSize; i++) {
                 const squareDiv = document.createElement("div");
                 squareDiv.setAttribute('onmouseenter',"changeSquareColor(this)");
-                boardDiv.appendChild(squareDiv);
+                boardDiv.appendChild(squareDiv).className = "grid-item";
+                console.log(i); 
             }
         }
     </script>
-    <script>
-        function changeSquareColor(element) {
-            element.setAttribute('class','red');
-            setTimeout(() => { element.classList.remove("red"); }, 500);
-        }
-    </script>
+</head>
+<body>
+    <div>
+        <h1><a href="../index.html">&lt== back</a></h1>
+    </div>
+    <div>
+        <form>
+            <label for="boardSize">Board size (16-64): </label>
+            <input id="boardSize" type="number" name="boardSize" min="16" max="64">
+            <button type="button" onclick="makeBoard()">Make Grid</button>
+        </form>
+    </div>
+    <div class="board" id="boardDiv">
+        
+    </div>
 </body>
 </html>
