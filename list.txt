@@ -1,0 +1,167 @@
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Blog! (ish)
+
+Coding!
+Web design tests
+Web apps (in-browser javascript)
+Web apps (w/ backend)
+Downloadable Software
+Discord Bot
+
+Creations!
+Painted Pieces
+Doodles
+Writings
+
+TTRPG!
+House of Mirrors
+Faction Twilight
+A City Laced In Lies
+Miscellaneous Characters
+
+Worlds!
+Beastmasters
+World of Horns
+Three Windows
+World Soul
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+index.html
+> Blog
+    > Home
+    > Archive
+        > posts, etc
+> Coding
+    > Web
+        > Web design tests
+        > Web apps (in-browser javascript)
+        > Web apps (w/ backend)
+    > Downloadable
+        > Downloadable Software
+    > Not Released
+        > Discord Bot
+> Creations
+    > Art
+        > Painted Pieces
+        > Doodles
+    > Writing
+        > Prose
+        > Short Stories
+    > Music
+        > Unfinished Music
+        > Finished Music
+        > Remixes
+        > Playlists
+> TTRPG
+    > House of Mirrors
+    > Faction Twilight
+    > A City Laced In Lies
+    > Miscellaneous Characters
+> Worlds
+    > Beastmasters
+    > World of Horns
+    > Three Windows
+    > World Soul
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+index.html
+> Blog
+    > blog.html
+        > bloghome.html
+        > blogarchive.html
+> Coding
+    > coding.html
+        > web.html
+            > webstyles.html
+            > webscripts.html
+            > webtinkers.html
+        > programs.html
+        > privatecode.html
+            > jormunbot.html
+> Creations
+    > creations.html
+        > art.html
+        > writing.html
+        > music.html
+> TTRPG
+    > ttrpg.html
+        > hom.html
+        > factwilight.html
+        > aclil.html
+        > miscchar.html
+> Worlds
+    > worldbuild.html
+        > beastmasters.html
+        > worldofhorns.html
+        > threewindows.html
+        > worldsoul.html
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+index.html
+    > blog.html
+        > bloghome.html
+        > blogarchive.html
+        
+    > coding.html
+        > web.html
+            > webstyles.html
+            > webscripts.html
+            > webtinkers.html
+        > programs.html
+        > privatecode.html
+            > jormunbot.html
+            
+    > creations.html
+        > art.html
+        > writing.html
+        > music.html
+        
+    > ttrpg.html
+        > hom.html
+        > factwilight.html
+        > aclil.html
+        > miscchar.html
+        
+    > worldbuild.html
+        > beastmasters.html
+        > worldofhorns.html
+        > threewindows.html
+        > worldsoul.html
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
