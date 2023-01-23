@@ -1,21 +1,14 @@
 {
     "images": [
-        "../../test/test.png",
-        "../../test/test3.png",
-        "../../test/test2.png",
-        "../../test/test2.png",
-        "../../test/test.png",
-        "../../test/test.png",
-        "../../test/test2.png",
-        "../../test/test3.png",
-        "../../test/test3.png",
-        "../../test/test.png",
-        "../../test/test2.png",
-        "../../test/test2.png",
-        "../../test/test.png",
-        "../../test/test.png",
-        "../../test/test.png",
-        "../../test/test2.png",
-        "../../test/test3.png"
+        ["artimg/kingofthorns.png","Alt text for image"],
+        ["artimg/medusanichor.png","Alt text for image"],
+        ["artimg/mountainspirit.png","Alt text for image"],
+        ["artimg/erinportrait1.png","Alt text for image"],
+        ["artimg/gen-shadowclaws2.png","Alt text for image"],
+        ["artimg/vanessapainting1.png","Alt text for image"],
+        ["artimg/izinportrait1.png","Alt text for image"],
+        ["../../test/test.png","Alt text for image"],
+        ["../../test/test2.png","Alt text for image"],
+        ["../../test/test3.png","Alt text for image"]
     ]
 }

@@ -48,9 +48,23 @@ h1{
     height:auto;
     margin: 4% auto;
     cursor: pointer;
-    border: 3px rgb(25, 51, 25) solid;
     -webkit-transition: all 0.2s;
     transition: all 0.2s;
+    padding: 1px;
+    box-shadow: 0 0 10px black;
+    background-color: rgb(111, 136, 106);
+    border-radius: 10px;
+}
+#gallery img:hover,#gallery video:hover {
+    width:100%;
+    height:auto;
+    margin: 4% auto;
+    cursor: pointer;
+    -webkit-transition: all 0.2s;
+    transition: all 0.2s;
+    padding: 5px;
+    box-shadow: 0 0 10px rgb(255, 255, 255);
+    border-radius: 10px;
 }
 .modal-img,.model-vid{
     width:100%;
@@ -140,3 +154,5 @@ h1{
       width: 100%;
     }
   } 
+
+ 
