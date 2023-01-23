@@ -1,248 +1,299 @@
-body {
-  color: #777;
-}
+/* user styles */
 
-.pure-img-responsive {
-  max-width: 100%;
-  height: auto;
-}
+/* styles are what change the color and sizes of stuff on your site. */
 
-/*
-Add transition to containers so they can push in and out.
-*/
-#layout,
-#menu,
-.menu-link {
-  -webkit-transition: all 0.2s ease-out;
-  -moz-transition: all 0.2s ease-out;
-  -ms-transition: all 0.2s ease-out;
-  -o-transition: all 0.2s ease-out;
-  transition: all 0.2s ease-out;
-}
+/* these are variables that are being used in the code
+these tended to confuse some people, so I only kept 
+the images as variables */
 
-/*
-This is the parent `<div>` that contains the menu and the content area.
-*/
-#layout {
-  position: relative;
-  left: 0;
-  padding-left: 0;
-}
-  #layout.active #menu {
-      left: 150px;
-      width: 150px;
-  }
+    :root {
+        --header-image: url('images\\pexels-photo-3636937.jpeg');
+        --body-bg-image: url('images\\pexels-photo-11255719.jpeg');
 
-  #layout.active .menu-link {
-      left: 150px;
-  }
-/*
-The content `<div>` is where all your content goes.
-*/
-.content {
-  margin: 0 auto;
-  padding: 0 2em;
-  max-width: 800px;
-  margin-bottom: 50px;
-  line-height: 1.6em;
-}
+        /* colors */
+        --content: #276e25;
+    }
 
-.header {
-   margin: 0;
-   color: #333;
-   text-align: center;
-   padding: 2.5em 2em 0;
-   border-bottom: 1px solid #eee;
-}
-  .header h1 {
-      margin: 0.2em 0;
-      font-size: 3em;
-      font-weight: 300;
-  }
-   .header h2 {
-      font-weight: 300;
-      color: #ccc;
-      padding: 0;
-      margin-top: 0;
-  }
+    /* if you have the URL of a font, you can set it below */
+    /* feel free to delete this if it's not your vibe */
 
-.content-subhead {
-  margin: 50px 0 20px 0;
-  font-weight: 300;
-  color: #888;
-}
+    /* this seems like a lot for just one font and I would have to agree 
+but I wanted to include an example of how to include a custom font.
+If you download a font file you can upload it onto your Neocities
+and then link it! Many fonts have separate files for each style
+(bold, italic, etc. T_T) which is why there are so many!
 
-
-
-/*
-The `#menu` `<div>` is the parent `<div>` that contains the `.pure-menu` that
-appears on the left side of the page.
 */
 
-#menu {
-  margin-left: -150px; /* "#menu" width */
-  width: 150px;
-  position: fixed;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  z-index: 1000; /* so the menu or its navicon stays above all content */
-  background: #191818;
-  overflow-y: auto;
-}
-  /*
-  All anchors inside the menu should be styled like this.
-  */
-  #menu a {
-      color: #999;
-      border: none;
-      padding: 0.6em 0 0.6em 0.6em;
-  }
+    @font-face {
+        font-family: Nunito;
+        src: url('https://sadhost.neocities.org/fonts/Nunito-Regular.ttf');
+    }
 
-  /*
-  Remove all background/borders, since we are applying them to #menu.
-  */
-   #menu .pure-menu,
-   #menu .pure-menu ul {
-      border: none;
-      background: transparent;
-  }
+    @font-face {
+        font-family: Nunito;
+        src: url('https://sadhost.neocities.org/fonts/Nunito-Bold.ttf');
+        font-weight: bold;
+    }
 
-  /*
-  Add that light border to separate items into groups.
-  */
-  #menu .pure-menu ul,
-  #menu .pure-menu .menu-item-divided {
-      border-top: 1px solid #333;
-  }
-      /*
-      Change color of the anchor links on hover/focus.
-      */
-      #menu .pure-menu li a:hover,
-      #menu .pure-menu li a:focus {
-          background: #333;
-      }
+    @font-face {
+        font-family: Nunito;
+        src: url('https://sadhost.neocities.org/fonts/Nunito-Italic.ttf');
+        font-style: italic;
+    }
 
-  /*
-  This styles the selected menu item `<li>`.
-  */
-  #menu .pure-menu-selected,
-  #menu .pure-menu-heading {
-      background: #1f8dd6;
-  }
-      /*
-      This styles a link within a selected menu item `<li>`.
-      */
-      #menu .pure-menu-selected a {
-          color: #fff;
-      }
+    @font-face {
+        font-family: Nunito;
+        src: url('https://sadhost.neocities.org/fonts/Nunito-BoldItalic.ttf');
+        font-style: italic;
+        font-weight: bold;
+    }
 
-  /*
-  This styles the menu heading.
-  */
-  #menu .pure-menu-heading {
-      font-size: 110%;
-      color: #fff;
-      margin: 0;
-  }
+    body {
+        font-family: 'Nunito', sans-serif;
+        margin: 0;
+        background-color: #031a12;
+        /* you can delete the line below if you'd prefer to not use an image */
+        background-size: 1000px;
+        color: #fceaff;
+        background-image: var(--body-bg-image);
+        background-image: linear-gradient(0deg, #0411019c 20%, #1f533769 100%), var(--body-bg-image);
+        min-height: 100vh;
 
-/* -- Dynamic Button For Responsive Menu -------------------------------------*/
+        }
 
-/*
-The button to open/close the Menu is custom-made and not part of Pure. Here's
-how it works:
+    html {
+    }
+
+    * {
+        box-sizing: border-box;
+    }
+
+    /* below this line is CSS for the layout */
+
+    /* this is a CSS comment
+to uncomment a line of CSS, remove the * and the /
+before and after the text */
+
+
+    /* the "container" is what wraps your entire website */
+    /* if you want something (like the header) to be Wider than
+the other elements, you will need to move that div outside
+of the container */
+    #container {
+        max-width: 900px;
+        /* this is the width of your layout! */
+        /* if you change the above value, scroll to the bottom
+and change the media query according to the comment! */
+        margin: 0 auto;
+        /* this centers the entire page */
+        flex-grow: 1;
+        min-height: 96vh;
+    }
+
+    /* the area below is for all links on your page
+EXCEPT for the navigation */
+    #container a {
+        color: #92f564;
+        font-weight: bold;
+        /* if you want to remove the underline
+you can add a line below here that says:
+text-decoration:none; */
+    }
+
+    #header {
+        width: 100%;
+        background-color: #4e8c53;
+        /* header color here! */
+        height: 150px;
+        /* this is only for a background image! */
+        /* if you want to put images IN the header, 
+you can add them directly to the <div id="header"></div> element! */
+        background-image: linear-gradient(0deg, #0007 10%, #fff2 100%), var(--header-image);
+        background-size: 100%;
+        border: 1px #75f564 dashed;
+        border-radius: 10px;
+    }
+
+    /* navigation section!! */
+    #navbar {
+        height: 40px;
+        background-color: #192d09;
+        /* navbar color */
+        width: 100%;
+        border: 1px #75f564 dashed;
+        border-radius: 10px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    #navbar ul {
+        display: flex;
+        padding: 0;
+        margin: 0;
+        list-style-type: none;
+        justify-content: space-evenly;
+    }
+
+    #navbar li {
+        padding-top: 10px;
+    }
+
+    /* navigation links*/
+    #navbar li a {
+        color: #81f564;
+        /* navbar text color */
+        font-weight: 800;
+        text-decoration: none;
+        /* this removes the underline */
+    }
+
+    /* navigation link when a link is hovered over */
+    #navbar li a:hover {
+        color: #aaba9c;
+        text-decoration: underline;
+    }
+
+    #flex {
+        display: flex;
+    }
+
+    /* this colors BOTH sidebars
+if you want to style them separately,
+create styles for #leftSidebar and #rightSidebar */
+    aside {
+        background-color: #144514;
+        width: 200px;
+        padding: 20px;
+        font-size: smaller;
+        /* this makes the sidebar text slightly smaller */
+        border: 1px #75f564 dashed;
+        border-radius: 10px;
+    }
+
+
+    /* this is the color of the main content area,
+between the sidebars! */
+    main {
+        display: flex;
+        flex-flow: column;
+        background-color: #256e25;
+        flex: 1;
+        padding: 20px;
+        order: 2;
+        border: 1px #75f564 dashed;
+        border-radius: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    /* what's this "order" stuff about??
+allow me to explain!
+if you're using both sidebars, the "order" value
+tells the CSS the order in which to display them.
+left sidebar is 1, content is 2, and right sidebar is 3! */
+
+    */ #leftSidebar {
+        order: 1;
+    }
+
+    #rightSidebar {
+        order: 3;
+    }
+
+    #footer {
+        background-color: #0b140f;
+        /* background color for footer */
+        color: rgb(166, 179, 174);
+        width: 100%;
+        height: 4vh;
+        padding: 3px;
+        font-size: small;
+        text-align: center;
+        margin-top: 20px;
+        bottom: 0;
+        left: 0;
+        /* this centers the footer text */
+    }
+
+    h1,
+    h2,
+    h3 {
+        color: #92f564;
+    }
+
+    h1 {
+        font-size: 25px;
+    }
+
+    strong {
+        /* this styles bold text */
+        color: #aaf564;
+    }
+
+    /* this is just a cool box, it's the darker colored one */
+    .box {
+        background-color: #092d1b;
+        border: 1px solid #75f564;
+        padding: 10px;
+    }
+
+    /* CSS for extras */
+
+    #topBar {
+        width: 100%;
+        height: 30px;
+        padding: 10px;
+        font-size: smaller;
+        background-color: #092d19;
+    }
+
+    #flex {
+        margin-top: 20px;
+    }
+
+
+    /* BELOW THIS POINT IS MEDIA QUERY */
+
+    /* so you wanna change the width of your page? 
+by default, the container width is 900px.
+in order to keep things responsive, take your new height,
+and then subtrack it by 100. use this new number as the 
+"max-width" value below
 */
 
-/*
-`.menu-link` represents the responsive menu toggle that shows/hides on
-small screens.
+    @media only screen and (max-width: 800px) {
+        #flex {
+            flex-wrap: wrap;
+        }
+
+        aside {
+            width: 100%;
+            margin: 10px;
+        }
+
+        /* the order of the items is adjusted here for responsiveness!
+since the sidebars would be too small on a mobile device.
+feel free to play around with the order!
 */
-.menu-link {
-  position: fixed;
-  display: block; /* show this only on small screens */
-  top: 0;
-  left: 0; /* "#menu width" */
-  background: #000;
-  background: rgba(0,0,0,0.7);
-  font-size: 10px; /* change this value to increase/decrease button size */
-  z-index: 10;
-  width: 2em;
-  height: auto;
-  padding: 2.1em 1.6em;
-}
+        main {
+            order: 10px;
+        }
 
-  .menu-link:hover,
-  .menu-link:focus {
-      background: #000;
-  }
+        #leftSidebar {
+            order: 2;
+        }
 
-  .menu-link span {
-      position: relative;
-      display: block;
-  }
+        #rightSidebar {
+            order: 3;
+        }
 
-  .menu-link span,
-  .menu-link span:before,
-  .menu-link span:after {
-      background-color: #fff;
-      pointer-events: none;
-      width: 100%;
-      height: 0.2em;
-  }
+        #navbar ul {
+            flex-wrap: wrap;
+        }
+    }
 
-      .menu-link span:before,
-      .menu-link span:after {
-          position: absolute;
-          margin-top: -0.6em;
-          content: " ";
-      }
-
-      .menu-link span:after {
-          margin-top: 0.6em;
-      }
-
-
-/* -- Responsive Styles (Media Queries) ------------------------------------- */
-
-/*
-Hides the menu at `48em`, but modify this based on your app's needs.
-*/
-@media (min-width: 48em) {
-
-  .header,
-  .content {
-      padding-left: 2em;
-      padding-right: 2em;
-  }
-
-  #layout {
-      padding-left: 150px; /* left col width "#menu" */
-      left: 0;
-  }
-  #menu {
-      left: 150px;
-  }
-
-  .menu-link {
-      position: fixed;
-      left: 150px;
-      display: none;
-  }
-
-  #layout.active .menu-link {
-      left: 150px;
-  }
-}
-
-@media (max-width: 48em) {
-  /* Only apply this when the window is small. Otherwise, the following
-  case results in extra padding on the left:
-      * Make the window small.
-      * Tap the menu to trigger the active state.
-      * Make the window large again.
-  */
-  #layout.active {
-      position: relative;
-      left: 150px;
-  }
-}
+/* DEBUG BORDER TO SEE LAYOUT */
+/* * {
+    border: 1px red dotted;
+}     */

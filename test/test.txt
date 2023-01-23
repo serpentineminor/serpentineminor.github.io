@@ -1,0 +1,148 @@
+
+
+sdlfkgjlsekjrglkjselkjflkc
+
+CAT DOG MEOW
+
+teehee teehee
+
+<img src="../../test/test.png" class="img-responsive">
+<img src="../../test/test3.png" class="img-responsive">
+<img src="../../test/test2.png" class="img-responsive">
+<img src="../../test/test2.png" class="img-responsive">
+<img src="../../test/test3.png" class="img-responsive">
+<img src="../../test/test.png" class="img-responsive">
+<img src="../../test/test.png" class="img-responsive">
+<img src="../../test/test2.png" class="img-responsive">
+<img src="../../test/test.png" class="img-responsive">
+<img src="../../test/test.png" class="img-responsive">
+<img src="../../test/test2.png" class="img-responsive">
+<img src="../../test/test3.png" class="img-responsive">
+<img src="../../test/test3.png" class="img-responsive">
+<img src="../../test/test3.png" class="img-responsive">
+<img src="../../test/test2.png" class="img-responsive">
+
+<div class="item" style="background-image: url('../../test/test.png');"></div>
+<div class="item" style="background-image: url('../../test/test3.png');"></div>
+<div class="item" style="background-image: url('../../test/test2.png');"></div>
+<div class="item" style="background-image: url('../../test/test3.png');"></div>
+<div class="item" style="background-image: url('../../test/test.png');"></div>
+<div class="item" style="background-image: url('../../test/test.png');"></div>
+<div class="item" style="background-image: url('../../test/test2.png');"></div>
+<div class="item" style="background-image: url('../../test/test3.png');"></div>
+<div class="item" style="background-image: url('../../test/test.png');"></div>
+<div class="item" style="background-image: url('../../test/test.png');"></div>
+<div class="item" style="background-image: url('../../test/test.png');"></div>
+<div class="item" style="background-image: url('../../test/test2.png');"></div>
+<div class="item" style="background-image: url('../../test/test3.png');"></div>
+<div class="item" style="background-image: url('../../test/test.png');"></div>
+<div class="item" style="background-image: url('../../test/test.png');"></div>
+<div class="item" style="background-image: url('../../test/test.png');"></div>
+<div class="item" style="background-image: url('../../test/test2.png');"></div>
+<div class="item" style="background-image: url('../../test/test3.png');"></div>
+<div class="item" style="background-image: url('../../test/test.png');"></div>
+<div class="item" style="background-image: url('../../test/test.png');"></div>  
+
+<h1>Responsive Image Gallery</h1><hr>
+<div id="gallery" class="container-fluid">  
+    <img src="../../test/test.png" class="img-responsive">
+    <img src="../../test/test3.png" class="img-responsive">
+    <img src="../../test/test2.png" class="img-responsive">
+    <img src="../../test/test2.png" class="img-responsive">
+    <img src="../../test/test3.png" class="img-responsive">
+    <img src="../../test/test.png" class="img-responsive">
+    <img src="../../test/test.png" class="img-responsive">
+    <img src="../../test/test2.png" class="img-responsive">
+    <img src="../../test/test.png" class="img-responsive">
+    <img src="../../test/test.png" class="img-responsive">
+    <img src="../../test/test2.png" class="img-responsive">
+    <img src="../../test/test3.png" class="img-responsive">
+    <img src="../../test/test3.png" class="img-responsive">
+    <img src="../../test/test3.png" class="img-responsive">
+    <img src="../../test/test2.png" class="img-responsive">
+</div>
+
+<a href=""><img src="../../test/test.png" class="img-responsive"></a>
+<a href=""><img src="../../test/test3.png" class="img-responsive"></a>
+<a href=""><img src="../../test/test2.png" class="img-responsive"></a>
+<a href=""><img src="../../test/test2.png" class="img-responsive"></a>
+<a href=""><img src="../../test/test3.png" class="img-responsive"></a>
+<a href=""><img src="../../test/test2.png" class="img-responsive"></a>
+<a href=""><img src="../../test/test.png" class="img-responsive"></a>
+<a href=""><img src="../../test/test3.png" class="img-responsive"></a>
+<a href=""><img src="../../test/test2.png" class="img-responsive"></a>
+<a href=""><img src="../../test/test2.png" class="img-responsive"></a>
+<a href=""><img src="../../test/test.png" class="img-responsive"></a>
+<a href=""><img src="../../test/test3.png" class="img-responsive"></a>
+<a href=""><img src="../../test/test2.png" class="img-responsive"></a>
+<a href=""><img src="../../test/test.png" class="img-responsive"></a>
+<a href=""><img src="../../test/test.png" class="img-responsive"></a>
+<a href=""><img src="../../test/test.png" class="img-responsive"></a>
+<a href=""><img src="../../test/test.png" class="img-responsive"></a>
+<a href=""><img src="../../test/test3.png" class="img-responsive"></a>
+<a href=""><img src="../../test/test.png" class="img-responsive"></a>
+<a href=""><img src="../../test/test.png" class="img-responsive"></a>
+<a href=""><img src="../../test/test2.png" class="img-responsive"></a>
+<a href=""><img src="../../test/test3.png" class="img-responsive"></a>
+<a href=""><img src="../../test/test2.png" class="img-responsive"></a>
+<a href=""><img src="../../test/test.png" class="img-responsive"></a>
+<a href=""><img src="../../test/test3.png" class="img-responsive"></a>  
+
+
+"../../test/test.png",
+"../../test/test3.png",
+"../../test/test2.png",
+"../../test/test2.png",
+"../../test/test.png",
+"../../test/test.png",
+"../../test/test2.png",
+"../../test/test3.png",
+"../../test/test3.png",
+"../../test/test.png",
+"../../test/test2.png",
+"../../test/test2.png",
+"../../test/test.png",
+"../../test/test.png",
+"../../test/test.png",
+"../../test/test2.png",
+
+
+
+
+
+
+                <!-- The expanding image container -->
+                <div class="container">
+                    <!-- Close the image -->
+                    <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+                
+                    <!-- Expanded image -->
+                    <img id="expandedImg" style="width:100%">
+                
+                    <!-- Image text -->
+                    <div id="imgtext"></div>
+                </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
